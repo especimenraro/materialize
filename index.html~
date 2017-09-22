@@ -7,71 +7,140 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
     <title>Blog de turismo Chile</title>
   </head>
   <body>
-  <div class="container">
+  <div class="container row contenedor-principal"> 
+  <div class="col l12">
+  
   <!CABECERA>
   
-  	<div class="row">
-
+  	<div class="row cabecera" id="tope">
   		<!LOGO>
 		<div class="col l3 ">
-			<img src="imagenes/logo.png" class="responsive-img"  width="100%" alt="">
-		</div>
-		
-		<!MENU>
-		
-		<div class="col l9">
-		<nav class="nav-wrapper">
-			<ul class="right">
-						<li class="active"><a href="">Inicio</a></li>
-						<li><a href="">Visitas Guiadas</a></li>
-						<li><a href="">Contacto</a></li>
+			<img src="imagenes/logo.png" class="responsive-img"  alt="">
+		</div>		
+		<!MENU>		
+		<div class="col l9 ">
+		<nav class="nav-wrapper  valign transparent">
+			<ul class="right ">
+						<li class="active "><a class="black-text" href="">Inicio</a></li>
+						<li><a class="black-text" href="">Visitas Guiadas</a></li>
+						<li><a class="black-text" href="">Zona Norte</a></li>
+						<li><a class="black-text" href="">Zona Sur</a></li>
+						<li><a class="black-text" href="">Contacto</a></li>
 			</ul>
 			</nav>
-		</div> 
-		
-  	</div>
-  	
-  	
+		</div> 		
+  	</div>	
   	
   	<!SLOGAN>
-  	<div class="row">
-	<div class="col l12 teal ">
-	<span class="flow-text center-align">A CONOCER NUESTRA TIERRA</span>
+  	<div class="row cabecera">
+	<div class="col l12 ">
+	<p class="flow-text center-align blue-grey-text text-darken-2 slogan">A CONOCER NUESTRA TIERRA</p>
 	</div>  	
   	</div>
   	
   	<!HISTORIAL>
-  	<div class="row">
+  	<div class="row historial">
   	<!REDES>
-  		<div class="col l1">
+  		<div class="col l1 redes">
   		<ul>
-		<li><a href="http://www.facebook.com"><img src="iconos/facebook-logo-button.png" alt="vinculo a facebook" class="responsive-img"></li>  		
-		<li><a href="http://www.instagram.com"><img src="iconos/instagram-logo.png" alt="vinculo a instagram"  class="responsive-img"></li>
-		<li><a href="http://www.google.com"><img src="iconos/google-plus-logo-button.png" alt="vinculo a google+"  class="responsive-img"></li>
-		<li><a href="http://www.tumblr.com"><img src="iconos/tumblr-logo-button.png" alt="vinculo a tumblr"  class="responsive-img"></li>
+		<li><a href="http://www.facebook.com"><img src="iconos/facebook-logo-button.png" alt="vinculo a facebook" class="responsive-img"></a></li>  		
+		<li><a href="http://www.instagram.com"><img src="iconos/instagram-logo.png" alt="vinculo a instagram"  class="responsive-img"></a></li>
+		<li><a href="http://www.google.com"><img src="iconos/google-plus-logo-button.png" alt="vinculo a google+"  class="responsive-img"></a></li>
+		<li><a href="http://www.tumblr.com"><img src="iconos/tumblr-logo-button.png" alt="vinculo a tumblr"  class="responsive-img"></a></li>
   		</ul>
   		</div>
   	<!GALERIA>	
-  		<div class="col l11">
+  		<div class="col l11 galeria">
   			<div class="row">
 				<div class="col l4">
 					<div class="row">
-						<div class="col 12"><img src="imagenes/foto01.jpg" alt="" class="responsive-img"></div>					
-					</div>		
+						<div class="col 12">
+						<div class="card">
+							<div class="card-image">
+              				<img src="imagenes/foto01.jpg" alt="" class="imagen-galeria responsive-img">		
+             				 <span class="card-title">Hotel Huilo Huilo</span>
+            			</div>
+            			<div class="card-content">
+              			<p>Un paseo por los senderosdel Hotel en la Reserva Natural Huil Huilo.</p>
+            			</div>
+            			<div class="card-action">
+              				<a href="#entrada2">ir</a>
+            			</div>
+						</div>						
+						</div>					
+					</div>
+					
+					
 					<div class="row">
-						<div class="col 12"><img src="imagenes/foto02.jpg" alt="" class="responsive-img"></div>					
+						<div class="col 12">
+						<div class="card">
+							<div class="card-image">
+              				<img src="imagenes/foto02.jpg" alt="" class="imagen-galeria responsive-img">		
+             				 <span class="card-title">Rio Queupúe</span>
+            			</div>
+            			<div class="card-content">
+              			<p>Hermoso Rio sin senderos para turistas que gusten de la aventura.</p>
+            			</div>
+            			<div class="card-action">
+              				<a href="#entrada3">ir</a>
+            			</div>
+						</div>						
+						</div>					
 					</div>				
 				</div>
-				<div class="col l4 "><img src="imagenes/foto03.jpg" alt="" class="responsive-img"></div>
+				
+				<div class="col l4 ">
+					<div class="card">
+							<div class="card-image">
+              				<img src="imagenes/foto03.jpg" alt="" class="imagen-galeria responsive-img">	
+             				 <span class="card-title">Temuco Urbano</span>
+            			</div>
+            			<div class="card-content">
+              			<p>Diversos atractivos tiene esta ciudad sureña con murales e intervenciones urbanas.</p>
+            			</div>
+            			<div class="card-action">
+              				<a href="#entrada4">ir</a>
+            			</div>
+						</div>						
+				</div>
+				
+				
 				<div class="col l4">
 					<div class="row">
-						<div class="col 12"><img src="imagenes/foto04.jpg" alt="" class="responsive-img"></div>					
+						<div class="col 12">
+						<div class="card">
+							<div class="card-image">
+              				<img src="imagenes/foto04.jpg" alt="" class="imagen-galeria responsive-img">	
+             				 <span class="card-title">Lago Conguillío</span>
+            			</div>
+            			<div class="card-content">
+              			<p>Visita a un lago inmerso en un paisaje cordillerano y volcanico.</p>
+            			</div>
+            			<div class="card-action">
+              				<a href="#entrada1">ir</a>
+            			</div>
+						</div>	
+						</div>					
 					</div>		
 					<div class="row">
-						<div class="col 12"><img src="imagenes/foto05.jpg" alt="" class="responsive-img"></div>					
+						<div class="col 12">
+						<div class="card">
+							<div class="card-image">
+              				<img src="imagenes/foto05.jpg" alt="" class="imagen-galeria responsive-img">	
+             				 <span class="card-title">Buceo en Lago Conguillío</span>
+            			</div>
+            			<div class="card-content">
+              			<p>Visita el fondo del lago inmerso en un paisaje cordillerano y volcanico.</p>
+            			</div>
+            			<div class="card-action">
+              				<a href="#entrada5">ir</a>
+            			</div>
+						</div>					
+						</div>					
 					</div>		
 				</div>  			
   			</div>
@@ -80,18 +149,19 @@
   	</div> <! FIN HISTORIAL>
   	
   	<!ENTRADAS>
-  	<div class="row">
-  	<!ENTRADA>
-  	<div class="col l9">
+		<!ENTRADA>
+  	<div class="row entrada" id="entrada1">
+  	
+  	<div class="col l9 entrada-blog">
 		<div class="row">
-			<div class="col l12"><span>VISITA AL LAGO CONGUILLIO</span></div>
+			<div class="col l12"><h3 class="left-align">VISITA AL LAGO CONGUILLIO</h3></div>
 		</div>
 		<div class="row">
-			<div class="col l6"><span>10/09/2017</span></div>
-			<div class="col l6"><span>LAGO CONGUILLIO</span></div>
+			<div class="col l1"><span><strong> 10/09/2017</strong></span></div>
+			<div class="col l11"><span class="left-align"><em> LAGO CONGUILLIO </em></span></div>
 		</div>
 		 <div class="row">
-			<div class="col l8"><img src="imagenes/foto03.jpg" alt="" class="responsive-img"></div>
+			<div class="col l8"><img src="imagenes/foto04.jpg" alt="" class="responsive-img"></div>
 			<div class="col l4">
 			<p>La Unidad fue creada como Parque Nacional "Los Paraguas" el 21 de agosto de 1940, con 18.750 ha. junto con este se forma el 26 de mayo de 1950 "la Reserva Forestal Conguillío" con 36.000 ha. que luego el 17 de octubre de 1967 se anexa el sector "Laguna Verde", con 137 ha. Lo que finalmente el 15 de abril de 1987 se reconstituye dando forma al Parque Nacional Conguillío. </p>
 			</div>
@@ -102,32 +172,103 @@
 			</p>
 			</div>		
 		</div>   	
-		<div class="row">
+		<div class="row comentario">
 			<div class="input-field col l12">
 				<i class="material-icons prefix">comment</i>
 				<input type="text" placeholder="Has un comentario público">
 						
 			</div>		
 		</div>
+		<a href="#tope">Arriba</a> 
   	</div>
   	<!AUTOR>
   	<div class="col l3">
-		<div class="row">
-			<div class="col l12"><img src="imagenes/user01.png" alt="imagen autor" class="circle responsive-img"></div>		
+		<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<img src="imagenes/user01.jpg" alt="imagen autor" class="circle responsive-img">
+			</div>			
+			</div>
+			<div class="divider"></div>
+			
+			<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<p class="flow-text center-align">Grecco</p>
+			</div>
+			</div>
+			<div class="divider"></div>
+			
+			<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<p class="flow-text center-align">Me gusta la Naturaleza, salgo mucho a visitar estos parques. Estoy estudiando turismo.</p>
+			</div>
+			</div>
+			
+					
 		</div>  	
+		  	
+  	  	</div> <!FIN ENTRADA1>
+  
+  <div class="row entrada" id="entrada2">
+  	
+  	<div class="col l9 entrada-blog">
 		<div class="row">
-			<div class="col l12"><span class="center-align">jovencita001</span></div>		
-		</div>  	
+			<div class="col l12"><h3 class="left-align">VISITA SENDEROS HUILO HUILO</h3></div>
+		</div>
 		<div class="row">
-			<div class="col l12"><p class="center-align">Me gusta la Naturaleza, salgo mucho a visitar estos parques. Estoy estudiando turismo.</p></div>		
-		</div>  	
+			<div class="col l1"><span><strong> 10/05/2016</strong></span></div>
+			<div class="col l11"><span class="left-align"><em> HOTEL HUILO HUILO </em></span></div>
+		</div>
+		 <div class="row">
+			<div class="col l8"><img src="imagenes/foto01.jpg" alt="" class="responsive-img"></div>
+			<div class="col l4">
+			<p>Enclavada en el corazón de la Selva Patagónica de Chile y rodeada por la majestuosa Cordillera de los Andes, nace la Reserva Biológica Huilo Huilo, un proyecto único en el mundo por su compromiso con la conservación del patrimonio natural y cultura local. Le invitamos a un viaje fascinante por las maravillas de nuestra mágica Reserva y a conocer nuestro compromiso en las áreas de Turismo Sustentable, Fundación y Territorio. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col l12">
+			<p>Profundidad sin límites. Desde la expedición de montaña Volcano Trek hasta un programa de inmersión cultural local como el Herencia Viviente, los programas temáticos fueron diseñados para quienes quieren profundizar en un tipo de aventura, siendo guiados de principio a fin por un mismo guía experto. 
+			</p>
+			</div>		
+		</div>   	
+		<div class="row comentario">
+			<div class="input-field col l12">
+				<i class="material-icons prefix">comment</i>
+				<input type="text" placeholder="Has un comentario público">
+						
+			</div>		
+		</div>
+		<a href="#tope">Arriba</a> 
   	</div>
-  	
-  	
-  	</div> <!FIN ENTRADAS>
-  
-  
-  
+  	<!AUTOR>
+  	<div class="col l3">
+		<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<img src="imagenes/user02.jpg" alt="imagen autor" class="circle responsive-img">
+			</div>			
+			</div>
+			<div class="divider"></div>
+			
+			<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<p class="flow-text center-align">TITA VIAJERA</p>
+			</div>
+			</div>
+			<div class="divider"></div>
+			
+			<div class="row  autor-entrada-blog">
+			<div class="col l12">
+			<p class="flow-text center-align">Soy artista y me encantan los lugares donde puedo inspirarme para hacer mis creaciones</p>
+			</div>
+			</div>
+			
+					
+		</div>  	
+		 	
+  	  	</div> <!FIN ENTRADA2>
+  	  	
+  	  	
+  	  	
+  </div>
   </div>   <!FIN CONTENEDOR>
   
   

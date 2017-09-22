@@ -1,0 +1,51 @@
+.contenedor-principal {
+background-image: url(../imagenes/foto01.jpg);
+background-attachment: fixed;
+
+}
+
+.cabecera {
+height: 100%;
+background-color: rgba(227,242,253,0.7); /*blue ligthen-5*/
+}
+
+.slogan {
+width: 100%;
+font-family: gillsans;
+font-style: italic;
+}
+
+.historial {
+background-color: rgba(178,235,242,0.7); /*cyan ligthen-4*/
+border: solid 1px black;
+}
+
+.redes {
+
+}
+.galeria {
+border-left: solid 1px black;
+}
+.imagen-galeria {
+
+padding: 2px 2px 2px 2px;
+}
+.entrada {
+background-color: rgba(128,222,234,0.7); /*cyan ligthen-3*/
+border: solid 1px black;
+}
+
+.entrada-blog {
+background-color: rgba(255,255,255,0.8);
+padding: 3px 3px 3px 3px;
+
+}
+.comentario {
+background-color: rgba(255,255,255,0.8);
+
+}
+.autor-entrada-blog {
+background-color: rgba(255,255,255,0.8);
+height: 100%;
+padding: 10px 10px 10px 10px;
+}
