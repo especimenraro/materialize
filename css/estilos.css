@@ -20,9 +20,6 @@ background-color: rgba(178,235,242,0.7); /*cyan ligthen-4*/
 border: solid 1px black;
 }
 
-.redes {
-
-}
 .galeria {
 border-left: solid 1px black;
 }
@@ -42,8 +39,5 @@ padding: 3px 3px 3px 3px;
 }
 .comentario {
 background-color: rgba(255,255,255,0.8);
-
-}
-.autor-entrada-blog {
 
 }
